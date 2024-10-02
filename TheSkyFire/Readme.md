@@ -10,3 +10,4 @@ This repository will contain all the DSA problems currently being solved by me
 | Naive_Pattern_Searching      |  Strings  | 02-10-2024 |
 | Search_in_a_matrix      |  Searching (Step Approach)  | 02-10-2024 |
 | Valid_Anagram      |  Strings  | 02-10-2024 |
+| Search in a Rotated Sorted Array | Binary Search (1-D Array) | 02-10-2024 |
