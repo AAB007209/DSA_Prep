@@ -44,9 +44,30 @@ function reverseWords2(str) {
     return answerString;
 }
 
+// - Using Stack (First in Last out Principle (FILO))
+// Time Complexity - O(N)
+// Space Complexity - O(N)
+
+function reverseWords3(str) {
+    let st = []; // Using array as stack
+
+    let arr = str.split(" "); // Array of strings without spaces.
+
+    for (let i = 0; i < arr.length; i++) {
+        // Checking for spaces which were extra in between words in the string
+        if (arr[i].length) {
+            st.push(arr[i]);
+        }
+    }
+    // Reverse the arr and join with spaces in between words
+    return st.reverse().join(" ");
+}
+
 // Driver code
 const str1 = reverseWords1("  hello    world  ");
 const str2 = reverseWords2("The Sky is Blue");
+const str3 = reverseWords3(" This  is a         good    example");
 
 console.log(str1); // Output - "world hello"
 console.log(str2); // Output - "Blue is Sky The"
+console.log(str3); // Output - "example good a is This"
