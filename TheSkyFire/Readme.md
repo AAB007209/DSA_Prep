@@ -15,3 +15,4 @@ This repository will contain all the DSA problems currently being solved by me
 | Largest_Odd_Number_in_String | Strings | 03-10-2024 |
 | Longest_Common_Prefix | Strings | 04-10-2024 |
 | Alpha Numeric Palindrome | Strings | 05-10-2024 |
+| Pangram | Strings | 05-10-2024 |
