@@ -12,11 +12,20 @@ function reverseWords1(str) {
     return result;
 };
 
+function reverseWords2(str) {
+    const result = str
+        .split(/\s+/) // create an array with each word in string
+        .reduceRight((reverseStr, word) => `${reverseStr} ${word}`, '') // traverse the array from last & create an string
+        .trim() // to remove the first useless space added initially.
+
+    return result;
+}
+
 // - Using Normal Approach
 // Time Complexity - O(N)
 // Space Complexity - O(N), where N is the length of the input string.
 
-function reverseWords2(str) {
+function reverseWords3(str) {
     let answerString = ""; // To store reversed String as answer
 
     let i = 0, j = str.length - 1;
@@ -48,7 +57,7 @@ function reverseWords2(str) {
 // Time Complexity - O(N)
 // Space Complexity - O(N)
 
-function reverseWords3(str) {
+function reverseWords4(str) {
     let st = []; // Using array as stack
 
     let arr = str.split(" "); // Array of strings without spaces.
@@ -67,7 +76,9 @@ function reverseWords3(str) {
 const str1 = reverseWords1("  hello    world  ");
 const str2 = reverseWords2("The Sky is Blue");
 const str3 = reverseWords3(" This  is a         good    example");
+const str4 = reverseWords4(" JavaScript    is   the     most loved and hated    language");
 
 console.log(str1); // Output - "world hello"
 console.log(str2); // Output - "Blue is Sky The"
 console.log(str3); // Output - "example good a is This"
+console.log(str4); // Output - "language hated and loved most the is JavaScript"
