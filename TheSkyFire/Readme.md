@@ -19,3 +19,4 @@ This repository will contain all the DSA problems currently being solved by me
 | Remove Outer Parenthesis | Strings | 06-10-2024 |
 | Isomorphic Strings | Strings | 06-10-2024 |
 | Minimum String Length After Removing Substrings | Strings | 07-10-2024 |
+| Minimum No of Swaps to make the String Balanced | Strings | 09-10-2024 |
