@@ -74,10 +74,38 @@ function minSwaps2(str) {
 };
 
 
-// Driver Code
+// - Optimal Solution
+// Time Complexity - O(N)
+// Space Complexity - O(1)
+
+function minSwaps3(str) {
+    // Initialize a variable to keep track of unmatched opening brackets
+    let stackSize = 0;
+
+    // Iterate through each character in the input string
+    for (let ch of str) {
+        if (ch === '[') {
+            // If we encounter an opening bracket, increment the stack size
+            stackSize++;
+        } else {
+            // If we encounter a closing bracket
+            if (stackSize > 0) {
+                // If there's a matching opening bracket (stackSize > 0),
+                // decrement the stack size
+                stackSize--;
+            }
+        }
+    }
+
+    // We need to swap half of the remaining unmatched brackets
+    // Use Math.floor to round down the division result after adding 1
+    return Math.floor((stackSize + 1) / 2);
+};
+
+
+// Driver Code (Consider Brackerts are equally given)
 
 console.log(minSwaps1("[[][]]")); // Output: 0
-console.log(minSwaps2("][[["));   // Output: 2
-console.log(minSwaps1("][[]]"));  // Output: 1
-console.log(minSwaps2("]["));  // Output: 1
+console.log(minSwaps2("][]["));   // Output: 1
+console.log(minSwaps3("]]][[["));  // Output: 2
 
