@@ -1,4 +1,5 @@
 // - Problem Description - (Leetcode- 2696. Minimum String Length After Removing Substrings)
+// Link - https://leetcode.com/problems/minimum-string-length-after-removing-substrings/description
 
 /*
 You are given a string s consisting only of uppercase English letters.
