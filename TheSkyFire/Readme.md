@@ -21,3 +21,4 @@ This repository will contain all the DSA problems currently being solved by me
 | Minimum String Length After Removing Substrings | Strings | 07-10-2024 |
 | Minimum No of Swaps to make the String Balanced | Strings | 09-10-2024 |
 | Minimum Add to Make Parenthesis Valid | Strings | 10-10-2024 |
+| Find the Index of the First Occurrence in a String | 11-10-2024 |
