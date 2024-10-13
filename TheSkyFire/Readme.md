@@ -24,4 +24,4 @@ This repository will contain all the DSA problems currently being solved by me
 | Find the Index of the First Occurrence in a String | Strings | 11-10-2024 | Easy |
 | FizzBuzz | Strings | 13-10-2024 | Easy |
 | Consecutive Characters | Strings | 13-10-2024 | Easy |
-| Rotate String | Strings | 13-10-2024 | Easy (Great Logic -> (S + S)) |
+| Rotate String | Strings | 13-10-2024 | Easy (Great Logic (S + S)) |
