@@ -23,3 +23,4 @@ This repository will contain all the DSA problems currently being solved by me
 | Minimum Add to Make Parenthesis Valid | Strings | 10-10-2024 | Medium |
 | Find the Index of the First Occurrence in a String | Strings | 11-10-2024 | Easy |
 | FizzBuzz | Strings | 13-10-2024 | Easy |
+| Consecutive Characters | Strings | 13-10-2024 | Easy |
