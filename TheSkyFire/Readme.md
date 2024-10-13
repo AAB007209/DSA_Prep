@@ -22,3 +22,4 @@ This repository will contain all the DSA problems currently being solved by me
 | Minimum No of Swaps to make the String Balanced | Strings | 09-10-2024 | Medium |
 | Minimum Add to Make Parenthesis Valid | Strings | 10-10-2024 | Medium |
 | Find the Index of the First Occurrence in a String | Strings | 11-10-2024 | Easy |
+| FizzBuzz | Strings | 13-10-2024 | Easy |
