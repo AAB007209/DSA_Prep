@@ -1,6 +1,8 @@
 ### This Repository is the Contribution from TheSkyFire
 
-This repository will contain all the DSA problems currently being solved by me
+This repository will contain all the DSA problems Solved by me.
+
+October 1 - 16th (Strings)
 
 | Problem      | Topic     | Date | Difficulty |
 |--------------|-----------|------|------------|
