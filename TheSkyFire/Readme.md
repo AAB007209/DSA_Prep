@@ -29,3 +29,4 @@ October 1 - 16th (Strings)
 | Rotate String | Strings | 13-10-2024 | Easy (Great Logic (S + S)) |
 | Longest Substring Without Repeating Characters | Strings (Sliding Window, Hashing) | 14-10-2024 | Medium |
 | Valid Palindrome | Strings (Two Pointers) | 14-10-2024 | Easy |
+| Sort Characters By Frequency | Strings | 16-10-2024 | Medium |
