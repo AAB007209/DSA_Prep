@@ -30,3 +30,5 @@ October 1 - 16th (Strings)
 | Longest Substring Without Repeating Characters | Strings (Sliding Window, Hashing) | 14-10-2024 | Medium |
 | Valid Palindrome | Strings (Two Pointers) | 14-10-2024 | Easy |
 | Sort Characters By Frequency | Strings | 16-10-2024 | Medium |
+| Sum of Beauty of All Substrings | Strings | 17-10-2024 | Medium |
+| Length of Last Word | Strings | 18-10-2024 | Easy |
