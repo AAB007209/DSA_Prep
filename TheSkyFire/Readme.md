@@ -32,3 +32,4 @@ October 1 - 16th (Strings)
 | Sort Characters By Frequency | Strings | 16-10-2024 | Medium |
 | Sum of Beauty of All Substrings | Strings | 17-10-2024 | Medium |
 | Length of Last Word | Strings | 18-10-2024 | Easy |
+| Maximum Nesting Depth of the Parentheses | Strings | 18-10-2024 | Easy |
