@@ -33,3 +33,4 @@ October 1 - 16th (Strings)
 | Sum of Beauty of All Substrings | Strings | 17-10-2024 | Medium |
 | Length of Last Word | Strings | 18-10-2024 | Easy |
 | Maximum Nesting Depth of the Parentheses | Strings | 18-10-2024 | Easy |
+| Count Number of Substrings | Strings | 19-10-2024 | Medium |
