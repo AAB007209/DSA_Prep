@@ -34,3 +34,4 @@ October 1 - 16th (Strings)
 | Length of Last Word | Strings | 18-10-2024 | Easy |
 | Maximum Nesting Depth of the Parentheses | Strings | 18-10-2024 | Easy |
 | Count Number of Substrings | Strings | 19-10-2024 | Medium |
+| Longest Palindromic Substring | Strings (Bruteforce)[DP solution ❌] | 19-10-2024 | Medium |
