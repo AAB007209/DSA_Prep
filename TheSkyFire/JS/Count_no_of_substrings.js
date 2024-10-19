@@ -75,13 +75,58 @@ function checkforKSubstring2(str, k) {
             // If distinct char count >= k then we count that substring
             if (distinctCount === k) {
                 count++;
+            } else if (distinctCount > k) {
+                break;  // No point in continuing as distinctCount > k
             }
         }
     }
     return count;
 }
 
+// - More Optimal Code
+// Time Complexity - O(N)
+// Space Complexity - O(1)
+
+function checkforKSubstring3(str, k) {
+    // Helper function to count substrings with at most k distinct characters
+    function countAtMostKDistinct(k) {
+        let freq = Array(26).fill(0);
+        let count = 0, distinctCount = 0;
+        let left = 0;
+
+        for (let right = 0; right < str.length; right++) {
+            let indexRight = str.charCodeAt(right) - 97;
+
+            if (freq[indexRight] === 0) {
+                distinctCount++;  // A new distinct character
+            }
+            freq[indexRight]++;  // Increment frequency of the character
+
+            // Shrink the window if distinct character count exceeds k
+            while (distinctCount > k) {
+                let indexLeft = str.charCodeAt(left) - 97;
+                freq[indexLeft]--;
+                if (freq[indexLeft] === 0) {
+                    distinctCount--;  // One distinct character is removed
+                }
+                left++;
+            }
+
+            // Add the number of substrings ending at `right`
+            count += right - left + 1;
+        }
+
+        return count;
+    }
+
+    // Count of substrings with exactly k distinct characters 
+    return countAtMostKDistinct(k) - countAtMostKDistinct(k - 1); // (Important Step to understand why we do this ?)
+}
+
 // - Driver code
 console.log(checkforKSubstring2("aba", 2)); // Output -> 3
 console.log(checkforKSubstring2("abaaca", 1)); // Output -> 7
 console.log(checkforKSubstring2("cabbbefffab", 3)); // Output -> 17
+
+console.log(checkforKSubstring3("cabzedaefeb", 4)); // Output -> 10
+console.log(checkforKSubstring3("cabbbefffab", 5)); // Output -> 5
