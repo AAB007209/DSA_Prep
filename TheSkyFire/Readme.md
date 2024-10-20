@@ -1,8 +1,8 @@
-### This Repository is the Contribution from TheSkyFire
+## This Repository is the Contribution from TheSkyFire
 
 This repository will contain all the DSA problems Solved by me.
 
-October 1 - 16th (Strings)
+### Strings
 
 | Problem      | Topic     | Date | Difficulty |
 |--------------|-----------|------|------------|
@@ -10,9 +10,7 @@ October 1 - 16th (Strings)
 | Anagram      | Strings  | 02-10-2024 | Medium |
 | Extract_Integers      |  Strings  | 02-10-2024 | Easy |
 | Naive_Pattern_Searching      |  Strings  | 02-10-2024 | Easy |
-| Search_in_a_matrix      |  Searching (Step Approach)  | 02-10-2024 | Medium |
 | Valid_Anagram      |  Strings  | 02-10-2024 | Easy |
-| Search_in_a_Rotated_Sorted_Array | Binary Search (1-D Array) | 02-10-2024 | Medium |
 | Reverse_Words_In_a_String | Strings | 03-10-2024 | Medium |
 | Largest_Odd_Number_in_String | Strings | 03-10-2024 | Easy |
 | Longest_Common_Prefix | Strings | 04-10-2024 | Easy |
@@ -37,3 +35,17 @@ October 1 - 16th (Strings)
 | Longest Palindromic Substring | Strings (Bruteforce) [DP solution ❌] | 19-10-2024 | Medium |
 | Roman to Integer | Strings | 20-10-2024 | Easy |
 | Integer to Roman | Strings | 20-10-2024 | Medium |
+
+### Arrays
+
+| Problem      | Topic     | Date | Difficulty |
+|--------------|-----------|------|------------|
+| Pascals Triangle | Arrays (Recursion + DP ❌) | 20-10-2024 | Easy |
+
+
+### Searching
+
+| Problem      | Topic     | Date | Difficulty |
+|--------------|-----------|------|------------|
+| Search_in_a_matrix      |  Searching (Step Approach)  | 02-10-2024 | Medium |
+| Search_in_a_Rotated_Sorted_Array | Binary Search (1-D Array) | 02-10-2024 | Medium |
