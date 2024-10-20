@@ -36,3 +36,4 @@ October 1 - 16th (Strings)
 | Count Number of Substrings | Strings | 19-10-2024 | Medium |
 | Longest Palindromic Substring | Strings (Bruteforce) [DP solution ❌] | 19-10-2024 | Medium |
 | Roman to Integer | Strings | 20-10-2024 | Easy |
+| Integer to Roman | Strings | 20-10-2024 | Medium |
