@@ -1,8 +1,8 @@
-## This Repository is the Contribution from TheSkyFire
+# This Repository is the Contribution from TheSkyFire
 
 This repository will contain all the DSA problems Solved by me.
 
-### Strings
+## Strings
 
 | Problem      | Topic     | Date | Difficulty |
 |--------------|-----------|------|------------|
@@ -36,16 +36,27 @@ This repository will contain all the DSA problems Solved by me.
 | Roman to Integer | Strings | 20-10-2024 | Easy |
 | Integer to Roman | Strings | 20-10-2024 | Medium |
 
-### Arrays
+## Arrays
 
 | Problem      | Topic     | Date | Difficulty |
 |--------------|-----------|------|------------|
 | Pascals Triangle | Arrays (Recursion + DP ❌) | 20-10-2024 | Easy |
+| Two Sum | Arrays (Two Pointers + Hash Map) | 21-10-2024 | Easy |
 
 
-### Searching
+## Searching
 
 | Problem      | Topic     | Date | Difficulty |
 |--------------|-----------|------|------------|
 | Search_in_a_matrix      |  Searching (Step Approach)  | 02-10-2024 | Medium |
 | Search_in_a_Rotated_Sorted_Array | Binary Search (1-D Array) | 02-10-2024 | Medium |
+
+
+## Stacks and Queues
+
+| Problem      | Topic     | Date | Difficulty |
+|--------------|-----------|------|------------|
+| Implement_Queue_using_Arrays  |  Queues  | 21-10-2024 | Easy |
+| Implement_Queue_using_Stacks  |  Stacks & Queues  | 21-10-2024 | Easy |
+| Implement_Stack_using_Arrays |  Stacks  | 21-10-2024 | Easy |
+| Implement_Stack_using_Queue |  Stacks & Queues | 21-10-2024 | Easy |
