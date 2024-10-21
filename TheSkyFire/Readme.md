@@ -35,6 +35,8 @@ This repository will contain all the DSA problems Solved by me.
 | Longest Palindromic Substring | Strings (Bruteforce) [DP solution ❌] | 19-10-2024 | Medium |
 | Roman to Integer | Strings | 20-10-2024 | Easy |
 | Integer to Roman | Strings | 20-10-2024 | Medium |
+| Longest word in the String | Strings | 21-10-2024 | Easy |
+| Find the word that repeats maximum number of times | Strings | 21-10-2024 | Easy |
 
 ## Arrays
 
