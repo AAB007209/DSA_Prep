@@ -62,3 +62,6 @@ This repository will contain all the DSA problems Solved by me.
 | Implement_Queue_using_Stacks  |  Stacks & Queues  | 21-10-2024 | Easy |
 | Implement_Stack_using_Arrays |  Stacks  | 21-10-2024 | Easy |
 | Implement_Stack_using_Queue |  Stacks & Queues | 21-10-2024 | Easy |
+| Implement_Stack_using_LinkedList | Stacks | 22-10-2024 | Medium |
+| Implement_Queue_using_LinkedList | Queues | 22-10-2024 | Medium |
+| Valid Parenthesis | Stacks | 22-10-2024 | Easy |
