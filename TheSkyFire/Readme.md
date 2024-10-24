@@ -44,7 +44,7 @@ This repository will contain all the DSA problems Solved by me.
 |--------------|-----------|------|------------|
 | Pascals Triangle | Arrays (Recursion + DP ❌) | 20-10-2024 | Easy |
 | Two Sum | Arrays (Two Pointers + Hash Map) | 21-10-2024 | Easy |
-
+| Permutations (Heap's Algorithm) | Arrays + Recursion | 23-10-2024 | Medium |
 
 ## Searching
 
