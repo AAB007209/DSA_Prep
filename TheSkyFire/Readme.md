@@ -2,6 +2,13 @@
 
 This repository will contain all the DSA problems Solved by me.
 
+### Questions that need to be added and Updated here (23 & 24/10/2024)
+1. Intersection of Two Arrays.
+2. Find the first Lone superstar.
+3. Minimum number of times elevator will be used.
+4. Print all the duplicate characters in the string.
+5. Print the student ids of the passed students.
+
 ## Strings
 
 | Problem      | Topic     | Date | Difficulty |
