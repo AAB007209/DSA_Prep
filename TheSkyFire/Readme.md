@@ -3,11 +3,9 @@
 This repository will contain all the DSA problems Solved by me.
 
 ### Questions that need to be added and Updated here (23 & 24/10/2024)
-1. Intersection of Two Arrays.
-2. Find the first Lone superstar.
-3. Minimum number of times elevator will be used.
-4. Print all the duplicate characters in the string.
-5. Print the student ids of the passed students.
+1. Minimum number of times elevator will be used.
+2. Print all the duplicate characters in the string.
+3. Print the student ids of the passed students.
 
 ## Strings
 
@@ -53,6 +51,7 @@ This repository will contain all the DSA problems Solved by me.
 | Two Sum | Arrays (Two Pointers + Hash Map) | 21-10-2024 | Easy |
 | Permutations (Heap's Algorithm) | Arrays + Recursion | 23-10-2024 | Medium |
 | Intersection of Two Arrays | Arrays | 24-10-2024 | Easy |
+| Find the first Lone Superstar | Arrays | 24-10-2024 | Easy |
 
 ## Searching
 
