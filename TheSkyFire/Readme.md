@@ -2,10 +2,6 @@
 
 This repository will contain all the DSA problems Solved by me.
 
-### Questions that need to be added and Updated here (23 & 24/10/2024)
-1. Print all the duplicate characters in the string.
-2. Print the student ids of the passed students.
-
 ## Strings
 
 | Problem      | Topic     | Date | Difficulty |
@@ -41,6 +37,7 @@ This repository will contain all the DSA problems Solved by me.
 | Integer to Roman | Strings | 20-10-2024 | Medium |
 | Longest word in the String | Strings | 21-10-2024 | Easy |
 | Find the word that repeats maximum number of times | Strings | 21-10-2024 | Easy |
+| Print all the duplicate characters in the string | Strings | 24-10-2024 | Medium |
 
 ## Arrays
 
