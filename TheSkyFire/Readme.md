@@ -71,3 +71,9 @@ This repository will contain all the DSA problems Solved by me.
 | Implement_Queue_using_LinkedList | Queues | 22-10-2024 | Medium |
 | Valid Parenthesis | Stacks | 22-10-2024 | Easy |
 | Min Stack | Stacks | 22-10-2024 | Medium |
+
+## Basic Maths
+
+| Problem      | Topic     | Date | Difficulty |
+|--------------|-----------|------|------------|
+| Count Digits | Basic Maths | 27-10-2024 | Easy |
