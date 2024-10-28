@@ -77,3 +77,4 @@ This repository will contain all the DSA problems Solved by me.
 | Problem      | Topic     | Date | Difficulty |
 |--------------|-----------|------|------------|
 | Count Digits | Basic Maths | 27-10-2024 | Easy |
+| Palindrome | Basic Maths | 28-10-2024 | Easy |
