@@ -50,6 +50,7 @@ This repository will contain all the DSA problems Solved by me.
 | Find the first Lone Superstar | Arrays | 24-10-2024 | Easy |
 | Minimum Number of Times the Elevator to be used | Arrays | 24-10-2024 | Medium |
 | Frequency of Limited Range Array Elements | Arrays (In-place + Hashing) | 26-10-2024 | Medium |
+| Longest Consecutive Sequence | Arrays | 30-10-2024 | Medium |
 
 ## Searching
 
