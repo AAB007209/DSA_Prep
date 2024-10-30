@@ -52,6 +52,12 @@ This repository will contain all the DSA problems Solved by me.
 | Frequency of Limited Range Array Elements | Arrays (In-place + Hashing) | 26-10-2024 | Medium |
 | Longest Consecutive Sequence | Arrays | 30-10-2024 | Medium |
 
+
+## Matrix Problems
+| Problem      | Topic     | Date | Difficulty |
+|--------------|-----------|------|------------|
+| Rotate Image | Matrix | 30-10-2024 | Medium |
+
 ## Searching
 
 | Problem      | Topic     | Date | Difficulty |
