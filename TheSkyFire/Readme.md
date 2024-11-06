@@ -2,6 +2,11 @@
 
 This repository will contain all the DSA problems Solved by me.
 
+1. Stacks and Queues.
+2. Matrix Problems.
+3. Basic Maths
+4. Bit Manipulation
+
 ## Strings
 
 | Problem      | Topic     | Date | Difficulty |
