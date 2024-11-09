@@ -57,6 +57,7 @@ This repository will contain all the DSA problems Solved by me.
 | Frequency of Limited Range Array Elements | Arrays (In-place + Hashing) | 26-10-2024 | Medium |
 | Longest Consecutive Sequence | Arrays | 30-10-2024 | Medium |
 | Subarray Sum Equals K | Arrays (Prefix Sum + HashMap) | 01-10-2024 | Medium |
+| Majority Element I | Arrays (Moore's Voting Algo) | 09-11-2024 | Easy |
 | Majority Elements II | Arrays | 08-11-2024 | Medium |
 
 
