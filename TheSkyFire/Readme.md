@@ -8,6 +8,8 @@ This repository will contain all the DSA problems Solved by me.
 4. Bit Manipulation
 5. Greedy Problems
 6. Sliding Window Problems
+7. Binary Search
+8. Recursion
 
 ## Strings
 
