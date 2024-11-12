@@ -69,6 +69,7 @@ This repository will contain all the DSA problems Solved by me.
 | Subarray Sum Equals K | Arrays (Prefix Sum + HashMap) | 01-10-2024 | Medium |
 | Majority Element I | Arrays (Moore's Voting Algo) | 09-11-2024 | Easy |
 | Majority Elements II | Arrays | 08-11-2024 | Medium |
+| 3 Sum | Arrays (Two Pointers) | 12-11-2024 | Medium |
 
 
 ## Matrix Problems
