@@ -71,6 +71,7 @@ This repository will contain all the DSA problems Solved by me.
 | Majority Elements II | Arrays | 08-11-2024 | Medium |
 | 3 Sum | Arrays (Two Pointers) | 12-11-2024 | Medium |
 | 4 Sum | Arrays (Two Pointers) | 15-11-2024 | Medium |
+| Longest Subarray with Zero Sum | Arrays (Prefix Sum) | 16-11-2024 | Medium | 
 
 
 ## Matrix Problems
