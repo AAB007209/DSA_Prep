@@ -75,6 +75,7 @@ This repository will contain all the DSA problems Solved by me.
 | Longest Subarray with Zero Sum | Arrays (Prefix Sum) | 16-11-2024 | Medium | 
 | Merge Intervals | Arrays (Sorting) | 21-11-2024 | Medium |
 | Merge Sorted Array | Arrays (Gap Algorithm) | 22-11-2024 | Medium |
+| Missing and Repeating | Arrays (Hashing, Math) | 22-11-2024 | Medium |
 
 
 ## Matrix Problems

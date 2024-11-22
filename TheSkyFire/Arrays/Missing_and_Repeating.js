@@ -96,3 +96,6 @@ function missingAndRepeating3(arr) {
 console.log(missingAndRepeating1([2, 2])); // Output - [2, 1]
 console.log(missingAndRepeating2([1, 3, 3])); // Output - [3, 2]
 console.log(missingAndRepeating3([4, 3, 6, 2, 1, 1])); // Output - [1, 5]
+
+
+// We have one more Optimal solution which is using XOR but its little difficult to understand at this point. Will add later.
