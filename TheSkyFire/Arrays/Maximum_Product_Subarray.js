@@ -49,6 +49,37 @@ function maxProductSubarray2(nums) {
     return maxi;
 }
 
+// - Optimal Approach 2 (Kadane's Algo Based)
+// Time Complexity - O(N)
+// Space Complexity - O(1)
+
+function maxProductSubarray3(nums) {
+    let n = nums.length;
+    if (n === 0) return 0;
+
+    let maxProduct = nums[0]; // Tracks the maximum product
+    let minProduct = nums[0]; // Tracks the minimum product (important for negative numbers)
+    let result = nums[0];     // Stores the global maximum product
+
+    for (let i = 1; i < n; i++) {
+        let current = nums[i];
+
+        if (current < 0) {
+            // Swap max and min when the current number is negative
+            [maxProduct, minProduct] = [minProduct, maxProduct];
+        }
+
+        // Update max and min products
+        maxProduct = Math.max(current, maxProduct * current);
+        minProduct = Math.min(current, minProduct * current);
+
+        // Update the global maximum
+        result = Math.max(result, maxProduct);
+    }
+
+    return result;
+}
+
 // - Driver code
 
 console.log(maxProductSubarray1([2, 3, -2, 4])); // Output - 6
@@ -56,4 +87,4 @@ console.log(maxProductSubarray1([-2, 0, -1])); // Output - 0
 console.log(maxProductSubarray2([2, 3, -1, 4, -6, 3, -2, 7])); // Output - 1008
 console.log(maxProductSubarray2([1, 2, -1, 4, -5])); // Output - 40
 
-// We can also solve this problem using Kadane Algorithm (But Not recommeded for Interview by Striver)
+// We can solve this problem using Kadane Algorithm (But Not recommeded for Interview by Striver)
