@@ -29,11 +29,59 @@ function inversionCount1(nums) {
 }
 
 // - Optimal Solution (Little twist to Merge Sort Algorithm) [YET TO BE DONE]
-// Time Complexity - O()
-// Space Complexity - O()
+// Time Complexity - O(N * Log N)
+// Space Complexity - O(N)
+
+function merge(nums, low, mid, high){
+    let temp = [];
+    let left = low;
+    let right = mid+1;
+    
+    let count = 0;
+
+    while(left <= mid && right <= high){
+        if(nums[left] <= nums[right]){
+            temp.push(nums[left]);
+            left++;
+        }else{
+            temp.push(nums[right]);
+            count += (mid - left + 1); // Every element from the condition satisfying element on the right becomes pair. So add all there count.
+            right++;
+        }
+    }
+
+    while(left <= mid){
+        temp.push(nums[left]);
+        left++;
+    }
+
+    while(right <= high){
+        temp.push(nums[right]);
+        right++;
+    }
+
+    for (let i = low; i <= high; i++) {
+        nums[i] = temp[i - low];
+    }
+
+    return count;
+}
+
+function mergeSort(nums, low, high){
+    let count = 0;
+    if(low >= high) return count;
+
+    let mid = Math.floor((low + high) / 2);
+    count += mergeSort(nums, low, mid);
+    count += mergeSort(nums, mid+1, high);
+    count += merge(nums, low, mid, high);
+
+    return count;
+}
+
 
 function inversionCount2(nums){
-
+    return mergeSort(nums, 0, nums.length-1);
 }
 
 // - Driver code
@@ -46,3 +94,10 @@ console.log(inversionCount1([6, 5, 4, 3, 2])); // 10
 console.log(inversionCount1([6])); // 0
 console.log(inversionCount1([6, 3])); // 1
 
+// Optimal Solution Drivers
+console.log(inversionCount2([10, 10, 10])); // 0
+console.log(inversionCount2([2, 4, 1, 3, 5])); // 3
+console.log(inversionCount2([2, 3, 4, 5, 6])); // 0
+console.log(inversionCount2([6, 5, 4, 3, 2])); // 10
+console.log(inversionCount2([6])); // 0
+console.log(inversionCount2([6, 3])); // 1
