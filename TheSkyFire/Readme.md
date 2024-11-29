@@ -77,6 +77,8 @@ This repository will contain all the DSA problems Solved by me.
 | Merge Sorted Array | Arrays (Gap Algorithm) | 22-11-2024 | Medium |
 | Missing and Repeating | Arrays (Hashing, Math) | 22-11-2024 | Medium |
 | Maximum Product Subarray | Arrays (Prefix Sum) | 23-11-2024 | Medium |
+| Inversion Count | Arrays (Modified Merge Sort) | 27-11-2024 | Hard |
+| Reverse Pairs | Arrays (Modified Merge Sort) | 29-11-2024 | Hard |
 
 
 ## Matrix Problems
