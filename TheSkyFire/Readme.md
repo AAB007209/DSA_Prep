@@ -80,6 +80,11 @@ This repository will contain all the DSA problems Solved by me.
 | Inversion Count | Arrays (Modified Merge Sort) | 27-11-2024 | Hard |
 | Reverse Pairs | Arrays (Modified Merge Sort) | 29-11-2024 | Hard |
 
+## Binary Search
+| Problem      | Topic     | Date | Difficulty |
+|--------------|-----------|------|------------|
+| Binary Search | BS | 02-12-2024 | Easy |
+
 
 ## Matrix Problems
 | Problem      | Topic     | Date | Difficulty |
