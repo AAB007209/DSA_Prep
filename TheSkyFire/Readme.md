@@ -84,6 +84,7 @@ This repository will contain all the DSA problems Solved by me.
 | Problem      | Topic     | Date | Difficulty |
 |--------------|-----------|------|------------|
 | Binary Search | BS | 02-12-2024 | Easy |
+| Floor in a Sorted Array | BS | 02-12-2024 | Easy |
 
 
 ## Matrix Problems
