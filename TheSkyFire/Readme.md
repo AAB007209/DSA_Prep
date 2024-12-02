@@ -85,6 +85,8 @@ This repository will contain all the DSA problems Solved by me.
 |--------------|-----------|------|------------|
 | Binary Search | BS | 02-12-2024 | Easy |
 | Floor in a Sorted Array | BS | 02-12-2024 | Easy |
+| Ceil the Floor | BS | 02-12-2024 | Medium |
+| Search Insert Position | BS | 02-12-2024 | Medium |
 
 
 ## Matrix Problems
