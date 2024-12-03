@@ -89,7 +89,8 @@ This repository will contain all the DSA problems Solved by me.
 | Search Insert Position | BS | 02-12-2024 | Medium |
 | Find First and Last Position of Element in Sorted Array | BS | 02-12-2024 | Medium |
 | Number of Occurrence | BS | 03-12-2024 | Easy |
-| Search in Rotated Sorted Array 1 | BS | 03-12-2024 | Medium |  
+| Search in Rotated Sorted Array 1 | BS | 03-12-2024 | Medium |
+| Search in Rotated Sorted Array 2 | BS | 03-12-2024 | Medium |   
 
 
 ## Matrix Problems
