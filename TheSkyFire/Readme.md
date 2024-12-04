@@ -91,7 +91,8 @@ This repository will contain all the DSA problems Solved by me.
 | Number of Occurrence | BS | 03-12-2024 | Easy |
 | Search in Rotated Sorted Array 1 | BS | 03-12-2024 | Medium |
 | Search in Rotated Sorted Array 2 | BS | 03-12-2024 | Medium |
-| Find the Minimum in the Rotated Sorted Array | BS | 04-12-2024 | Easy |   
+| Find the Minimum in the Rotated Sorted Array | BS | 04-12-2024 | Easy |
+| Find Kth Rotation | BS | 04-12-2024 | Medium |
 
 
 ## Matrix Problems
