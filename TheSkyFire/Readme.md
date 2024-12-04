@@ -94,6 +94,7 @@ This repository will contain all the DSA problems Solved by me.
 | Find the Minimum in the Rotated Sorted Array | BS | 04-12-2024 | Easy |
 | Find Kth Rotation | BS | 04-12-2024 | Medium |
 | Single element in a Sorted Array | BS | 04-12-2024 | Medium |
+| Find Peak Element | BS | 04-12-2024 | Medium |
 
 
 ## Matrix Problems
