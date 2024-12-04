@@ -93,6 +93,7 @@ This repository will contain all the DSA problems Solved by me.
 | Search in Rotated Sorted Array 2 | BS | 03-12-2024 | Medium |
 | Find the Minimum in the Rotated Sorted Array | BS | 04-12-2024 | Easy |
 | Find Kth Rotation | BS | 04-12-2024 | Medium |
+| Single element in a Sorted Array | BS | 04-12-2024 | Medium |
 
 
 ## Matrix Problems
