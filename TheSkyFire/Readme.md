@@ -95,6 +95,7 @@ This repository will contain all the DSA problems Solved by me.
 | Find Kth Rotation | BS | 04-12-2024 | Medium |
 | Single element in a Sorted Array | BS | 04-12-2024 | Medium |
 | Find Peak Element | BS | 04-12-2024 | Medium |
+| Square Root | BS | 05-12-2024 | Easy |
 
 
 ## Matrix Problems
