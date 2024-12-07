@@ -96,6 +96,7 @@ Currently Solving - Binary Search Problems
 | Single element in a Sorted Array | BS | 04-12-2024 | Medium |
 | Find Peak Element | BS | 04-12-2024 | Medium |
 | Square Root | BS | 05-12-2024 | Easy |
+| Kth Missing Positive Number | BS (Observation Required) | 07-12-2024 | Medium |
 
 
 ## Matrix Problems
