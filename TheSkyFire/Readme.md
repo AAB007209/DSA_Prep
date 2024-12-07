@@ -2,21 +2,21 @@
 
 This repository will contain all the DSA problems Solved by me.
 
+Currently Solving - Binary Search Problems
+
 1. Stacks and Queues
 2. Matrix Problems
 3. Basic Maths
 4. Bit Manipulation (Revision)
 5. Greedy Problems
 6. Sliding Window Problems (Revision)
-7. Binary Search (Revision)
-8. Recursion
-9. Linked List (Revision)
-10. Strings (Revision)
-11. Dynamic Programming (Basic)
-12. Graphs
-13. Trees
-14. Arrays (Revision)
-15. Strings (Revision)
+7. Recursion
+8. Linked List (Revision)
+9. Dynamic Programming (Basic)
+10. Graphs.
+11. Trees
+12. Arrays (Revision)
+13. Strings (Revision)
 
 ## Strings
 
