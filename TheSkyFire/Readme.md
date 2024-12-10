@@ -97,6 +97,7 @@ Currently Solving - Binary Search Problems
 | Find Peak Element | BS | 04-12-2024 | Medium |
 | Square Root | BS | 05-12-2024 | Easy |
 | Kth Missing Positive Number | BS (Observation Required) | 07-12-2024 | Medium |
+| Find the Smallest Divisor given the Threshold | BS | 09-12-2024 | Medium | 
 
 
 ## Matrix Problems
