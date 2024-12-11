@@ -98,6 +98,8 @@ Currently Solving - Binary Search Problems
 | Square Root | BS | 05-12-2024 | Easy |
 | Kth Missing Positive Number | BS (Observation Required) | 07-12-2024 | Medium |
 | Find the Smallest Divisor given the Threshold | BS | 09-12-2024 | Medium | 
+| K-th Element of Two Arrays | BS (Observation Required) | 10-12-2024 | Hard |
+| Median of two Arrays | BS ((Observation Required) | 11-12-2024 | Hard |
 
 
 ## Matrix Problems
