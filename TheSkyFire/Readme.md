@@ -100,6 +100,7 @@ Currently Solving - Binary Search Problems
 | Find the Smallest Divisor given the Threshold | BS | 09-12-2024 | Medium | 
 | K-th Element of Two Arrays | BS (Observation Required) | 10-12-2024 | Hard |
 | Median of two Arrays | BS ((Observation Required) | 11-12-2024 | Hard |
+| Find the Nth root of M | BS | 13-12-2024 | Easy |
 
 
 ## Matrix Problems
