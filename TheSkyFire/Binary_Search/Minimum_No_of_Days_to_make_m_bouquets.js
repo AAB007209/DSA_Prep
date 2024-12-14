@@ -1,4 +1,4 @@
-// - Problem Description (Leetcode: )
+// - Problem Description (Leetcode: Minimum Number of days to make M bouquets)
 
 // Link - https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/description
 
@@ -12,15 +12,15 @@ Return the minimum number of days you need to wait to be able to make m bouquets
 // - Bruteforce Approach
 // Time Complexity - O((max(arr) - min(arr) + 1) * N)
 // Space Complexity - O(1)
-function possible(bloomDay, day, m, k){
+function possible(bloomDay, day, m, k) {
     let count = 0;
     let n = bloomDay.length;
     let bouquets = 0;
 
-    for(let i=0; i<n; i++){
-        if(bloomDay[i] <= day){
+    for (let i = 0; i < n; i++) {
+        if (bloomDay[i] <= day) {
             count++;
-        }else{
+        } else {
             bouquets += Math.floor(count / k);
             count = 0;
         }
@@ -32,13 +32,13 @@ function possible(bloomDay, day, m, k){
 function minDays1(bloomDay, m, k) {
     let val = m * k;
     let n = bloomDay.length;
-    if(val > n) return -1;
+    if (val > n) return -1;
 
     let mini = Math.min(...bloomDay);
     let maxi = Math.max(...bloomDay);
 
-    for(let i=mini; i<=maxi; i++){
-        if(possible(bloomDay, i, m, k)){
+    for (let i = mini; i <= maxi; i++) {
+        if (possible(bloomDay, i, m, k)) {
             return i;
         }
     }
@@ -52,18 +52,18 @@ function minDays1(bloomDay, m, k) {
 function minDays2(bloomDay, m, k) {
     let val = m * k;
     let n = bloomDay.length;
-    if(val > n) return -1;
+    if (val > n) return -1;
 
     let mini = Math.min(...bloomDay);
     let maxi = Math.max(...bloomDay);
 
     let low = mini, high = maxi;
 
-    while(low <= high){
+    while (low <= high) {
         let mid = (low + high) >> 1;
-        if(possible(bloomDay, mid, m, k)){
+        if (possible(bloomDay, mid, m, k)) {
             high = mid - 1;
-        }else{
+        } else {
             low = mid + 1;
         }
     }
