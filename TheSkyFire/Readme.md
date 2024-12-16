@@ -99,7 +99,7 @@ Currently Solving - Binary Search Problems
 | Kth Missing Positive Number | BS (Observation Required) | 07-12-2024 | Medium |
 | Find the Smallest Divisor given the Threshold | BS | 09-12-2024 | Medium | 
 | K-th Element of Two Arrays | BS (Observation Required) | 10-12-2024 | Hard |
-| Median of two Arrays | BS ((Observation Required) | 11-12-2024 | Hard |
+| Median of two Arrays | BS (Observation Required) | 11-12-2024 | Hard |
 | Find the Nth root of M | BS | 13-12-2024 | Easy |
 | Koko Eating Bananas | BS | 13-12-2024 | Medium |
 | Minimum No.of Days to make 'm' bouquets | BS | 13-12-2024 | Medium |
