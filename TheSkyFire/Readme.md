@@ -104,6 +104,7 @@ Currently Solving - Binary Search Problems
 | Koko Eating Bananas | BS | 13-12-2024 | Medium |
 | Minimum No.of Days to make 'm' bouquets | BS | 13-12-2024 | Medium |
 | Capacity to Ship Packages within D Days | BS | 14-12-2024 | Hard |
+| Aggressive Cows | BS (max of min) | 16-12-2024 | Hard |
 
 ## Matrix Problems
 | Problem      | Topic     | Date | Difficulty |
