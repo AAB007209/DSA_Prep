@@ -16,15 +16,15 @@ You have to allocate the book to ‘m’ students such that the maximum number o
 // Time Complexity - O(N * (sum(arr[])-max(arr[])+1))
 // Space Complexity - O(1)
 
-function countStudents(books, pages){
+function countStudents(books, pages) {
     let n = books.length;
     let students = 1;
     let pagesStudent = 0;
 
-    for(let i=0; i<n; i++){
-        if(pagesStudent + books[i] <= pages){
+    for (let i = 0; i < n; i++) {
+        if (pagesStudent + books[i] <= pages) {
             pagesStudent += books[i];
-        }else{
+        } else {
             students++;
             pagesStudent = books[i];
         }
@@ -34,13 +34,13 @@ function countStudents(books, pages){
 
 function findPages1(books, students) {
     let n = books.length;
-    if(students > n) return -1;
+    if (students > n) return -1;
 
     let low = Math.max(...books);
     let high = books.reduce((a, b) => a + b);
 
-    for(let pages = low; pages <= high; pages++){
-        if(countStudents(books, pages) === students){
+    for (let pages = low; pages <= high; pages++) {
+        if (countStudents(books, pages) === students) {
             return pages;
         }
     }
@@ -50,18 +50,19 @@ function findPages1(books, students) {
 // - Optimaal Approach (Binary Search)
 // Time Complexity - O(N * log(sum(arr[])-max(arr[])+1))
 // Space Complexity - O(1)
+
 function findPages2(books, students) {
     let n = books.length;
-    if(students > n) return -1;
+    if (students > n) return -1;
 
     let low = Math.max(...books);
     let high = books.reduce((a, b) => a + b);
 
-    while(low <= high){
+    while (low <= high) {
         let mid = (low + high) >> 1;
-        if(countStudents(books, mid) <= students){
+        if (countStudents(books, mid) <= students) {
             high = mid - 1;
-        }else{
+        } else {
             low = mid + 1;
         }
     }
