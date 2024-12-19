@@ -105,7 +105,9 @@ Currently Solving - Binary Search Problems
 | Minimum No.of Days to make 'm' bouquets | BS | 13-12-2024 | Medium |
 | Capacity to Ship Packages within D Days | BS | 14-12-2024 | Hard |
 | Aggressive Cows | BS (max of min) | 16-12-2024 | Hard |
-| Book Allocation | BS (max of min) | 17-12-2024 | Hard |
+| Book Allocation | BS (min of max) | 17-12-2024 | Hard |
+| Split Array Largest Sum | BS (min of max) | 19-12-2024 | Hard |
+| Painter's Partition | BS (min of max) | 19-12-2024 | Hard |
 
 ## Matrix Problems
 | Problem      | Topic     | Date | Difficulty |
