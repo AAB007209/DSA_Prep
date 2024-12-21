@@ -37,11 +37,49 @@ function rowWithMax1s(arr) {
     return maxOnes > 0 ? rowIndex : -1;
 }
 
-// - Optimal Approach
+// - Optimal Approach (Binary Search (M >> N))
 // Time Complexity - O(N * log(M))
 // Space Complexity - O(1)
 
+function lowerBound(arr, m) {
+    let low = 0, high = m - 1;
+    let ans = m;
+    while (low <= high) {
+        let mid = (low + high) >> 1;
+
+        if (arr[mid] >= 1) {
+            ans = mid;
+            high = mid - 1;
+        } else {
+            low = mid + 1;
+        }
+    }
+    return ans;
+}
+
 function rowWithMax1s_2(arr) {
+    let n = arr.length;
+    let m = arr[0].length;
+    let cnt_max = 0;
+    let index = -1;
+
+    for (let i = 0; i < n; i++) {
+        // For every row we find out the lowerbound of 1 i.e., first occurrence and then calculate then no.of 1's from it.
+        let cnt_ones = m - lowerBound(arr[i], m);
+        if (cnt_ones > cnt_max) {
+            cnt_max = cnt_ones;
+            index = i;
+        }
+    }
+    return index;
+}
+
+
+// - Optimal Approach [Step Down Approach] (if M and N are similar or N >> M)
+// Time Complexity - O(N + M)
+// Space Complexity - O(1)
+
+function rowWithMax1s_3(arr) {
     let n = arr.length;
     let m = arr[0].length;
 
@@ -54,9 +92,7 @@ function rowWithMax1s_2(arr) {
             j--; // Move left to count more 1s
         }
     }
-
     return maxRowIndex;
-
 }
 
 // - Driver code
@@ -69,3 +105,19 @@ console.log(rowWithMax1s([[0, 0], [0, 0]])); // -1
 console.log(rowWithMax1s_2([[0, 1, 1, 1], [0, 0, 1, 1], [1, 1, 1, 1], [0, 0, 0, 0]])); // 2
 console.log(rowWithMax1s_2([[0, 0], [1, 1]])); // 1
 console.log(rowWithMax1s_2([[0, 0], [0, 0]])); // -1
+
+// Optimal
+console.log(rowWithMax1s_3([[0, 1, 1, 1], [0, 0, 1, 1], [1, 1, 1, 1], [0, 0, 0, 0]])); // 2
+console.log(rowWithMax1s_3([[0, 0], [1, 1]])); // 1
+console.log(rowWithMax1s_3([[0, 0], [0, 0]])); // -1
+
+
+/* Learnings
+
+Approach: of Step down appraoch
+- Start from the top-right corner of the matrix.
+- Move left if you encounter a 1 (to count more 1s in the row).
+- Move down if you encounter a 0 (to check the next row).
+- Track the row with the maximum number of 1s during the traversal.
+
+*/
