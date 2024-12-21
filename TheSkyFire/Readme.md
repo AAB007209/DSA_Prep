@@ -115,6 +115,7 @@ Currently Solving - Binary Search Problems
 | Rotate Image | Matrix | 30-10-2024 | Medium |
 | Spiral Matrix | Matrix | 31-10-2024 | Medium |
 | Set Matrix Zeroes | Matrix | 07-11-2024 | Medium |
+| Row with Max 1's | BS on Matrix | 21-12-2024 | Medium |
 
 ## Searching
 
