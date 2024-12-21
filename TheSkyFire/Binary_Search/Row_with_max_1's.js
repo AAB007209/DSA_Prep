@@ -38,7 +38,7 @@ function rowWithMax1s(arr) {
 }
 
 // - Optimal Approach
-// Time Complexity - O(N+M)
+// Time Complexity - O(N * log(M))
 // Space Complexity - O(1)
 
 function rowWithMax1s_2(arr) {
