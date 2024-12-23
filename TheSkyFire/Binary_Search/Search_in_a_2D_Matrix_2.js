@@ -62,7 +62,7 @@ function searchMatrix2(matrix, target) {
 }
 
 // - Optimal Approach
-// Time Complexity - O(log(N*M))
+// Time Complexity - O(N+M)
 // Space Complexity - O(1)
 
 function searchMatrix3(matrix, target){
