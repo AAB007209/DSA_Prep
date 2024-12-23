@@ -117,6 +117,7 @@ Currently Solving - Binary Search Problems
 | Set Matrix Zeroes | Matrix | 07-11-2024 | Medium |
 | Row with Max 1's | BS on Matrix | 21-12-2024 | Medium |
 | Search in a 2D Matrix | BS on Matrix | 23-12-2024 | Medium |
+| Search in a 2D Matrix II | BS on Matrix | 23-12-2024 | Medium |
 
 ## Searching
 
