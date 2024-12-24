@@ -118,6 +118,7 @@ Currently Solving - Binary Search Problems
 | Row with Max 1's | BS on Matrix | 21-12-2024 | Medium |
 | Search in a 2D Matrix | BS on Matrix | 23-12-2024 | Medium |
 | Search in a 2D Matrix II | BS on Matrix | 23-12-2024 | Medium |
+| Find the Peak Element II | BS on Matrix | 24-12-2024 | Medium |
 
 ## Searching
 
