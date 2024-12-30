@@ -15,3 +15,7 @@ Currently Solving - Stacks and Queues [5 days]
 10. Binary Search Problems (Revision)
 11. Strings (Revision)
 12. Linked List (Revision)
+
+2025 Prep
+1. Solve above things
+2. Revise and Start giving Contests
