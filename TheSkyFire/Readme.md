@@ -140,6 +140,7 @@ Currently Solving - Stacks and Queues [5 days]
 | Valid Parenthesis | Stacks | 22-10-2024 | Easy |
 | Min Stack | Stacks | 22-10-2024 | Medium |
 | Infix to Postfix Converstion | Stacks | 04-01-2025 | Medium |
+| Prefix to Infix Converstion | Stacks | 04-01-2025 | Medium |
 
 ## Basic Maths
 
