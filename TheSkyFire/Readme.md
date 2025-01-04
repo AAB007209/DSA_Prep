@@ -141,6 +141,7 @@ Currently Solving - Stacks and Queues [5 days]
 | Min Stack | Stacks | 22-10-2024 | Medium |
 | Infix to Postfix Converstion | Stacks | 04-01-2025 | Medium |
 | Prefix to Infix Converstion | Stacks | 04-01-2025 | Medium |
+| Prefix to Postfix Converstion | Stacks | 04-01-2025 | Medium |
 
 ## Basic Maths
 
