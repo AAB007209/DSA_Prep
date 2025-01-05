@@ -143,6 +143,7 @@ Currently Solving - Stacks and Queues [5 days]
 | Prefix to Infix Converstion | Stacks | 04-01-2025 | Medium |
 | Prefix to Postfix Converstion | Stacks | 04-01-2025 | Medium |
 | Postfix to Prefix Converstion | Stacks | 05-01-2025 | Medium |
+| Postfix to Infix Converstion | Stacks | 05-01-2025 | Medium |
 
 ## Basic Maths
 
