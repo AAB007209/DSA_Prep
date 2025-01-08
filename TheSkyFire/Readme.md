@@ -147,6 +147,7 @@ Currently Solving - Stacks and Queues [5 days]
 | Infix to Prefix Converstion | Stacks (3 Step) | 06-01-2025 | Medium |
 | Next Greater Element I | Stacks | 06-01-2025 | Medium |
 | Next Greater Element II | Stacks (Circular) | 07-01-2025 | Medium |
+| Next Smallest Integer | Stacks | 08-01-2025 | Medium |
 
 ## Basic Maths
 
