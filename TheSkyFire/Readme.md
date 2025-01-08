@@ -148,6 +148,7 @@ Currently Solving - Stacks and Queues [5 days]
 | Next Greater Element I | Stacks | 06-01-2025 | Medium |
 | Next Greater Element II | Stacks (Circular) | 07-01-2025 | Medium |
 | Nearest Smallest Integer | Stacks | 08-01-2025 | Medium |
+| Number of Greater Elements to the Right | Stacks | 08-01-2025 | Easy |
 
 ## Basic Maths
 
