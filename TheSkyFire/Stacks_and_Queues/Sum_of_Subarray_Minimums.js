@@ -104,7 +104,7 @@ function sumOfSubarrayMins3(arr) {
 
     // Calculate nextLess
     for (let i = 0; i < n; i++) {
-        while (stack.length > 0 && arr[stack[stack.length - 1]] >= arr[i]) {
+        while (stack.length > 0 && arr[stack[stack.length - 1]] > arr[i]) {
             nextLess[stack.pop()] = i;
         }
         stack.push(i);
@@ -119,7 +119,8 @@ function sumOfSubarrayMins3(arr) {
     }
 
     return result;
-}
+};
+
 
 // - Driver code
 console.log(sumOfSubarrayMins([3, 1, 2, 4])); // 17
