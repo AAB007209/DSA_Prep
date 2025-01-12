@@ -88,14 +88,46 @@ function asteroidCollision2(asteroids) {
     return stack;
 }
 
+// - Little more Optimal
+// Time Complexity - O(N)
+// Space Complexity - O(N
+
+function asteroidCollision3(asteroids) {
+    const stack = [];
+
+    for (let i = 0; i < asteroids.length; i++) {
+        const last = stack[stack.length - 1];
+        const curr = asteroids[i];
+
+        if (last > 0 && curr < 0) {
+            // Colliding
+            if (last + curr === 0) {
+                stack.pop();
+            } else if (Math.abs(last) < Math.abs(curr)) {
+                stack.pop();
+                i--;
+            }
+        } else {
+            stack.push(curr);
+        }
+    }
+
+    return stack;
+}
+
 // - Driver code
 
 // Bruteforce
-console.log(asteroidCollision([5, 10, -5])); // Output: [ 5 , 10 ]
+condCollision([5, 10, -5])); // Output: [ 5 , 10 ]
 console.log(asteroidCollision([8, -8])); // Output: [ ]
 console.log(asteroidCollision([10, 2, -5])); // Output: [ 10 ]
 
 // Optimal 
 console.log(asteroidCollision2([5, 10, -5])); // Output: [ 5 , 10 ]
 console.log(asteroidCollision2([8, -8])); // Output: [ ]
-console.log(asteroidCollision2([10, 2, -5])); // Output: [ 10 ]
+console.log(asteroidCollision2([10, 2, -5])); // Output: [ 10 ]sole.log(asteroi
+
+// Optimal 2
+console.log(asteroidCollision3([5, 10, -5])); // Output: [ 5 , 10 ]
+console.log(asteroidCollision3([8, -8])); // Output: [ ]
+console.log(asteroidCollision3([10, 2, -5])); // Output: [ 10 ]
