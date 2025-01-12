@@ -11,29 +11,29 @@ Find out the state of the asteroids after all collisions. If two asteroids meet,
 */
 
 // - Bruteforce Approach
-// Time Complexity - 
-// Space Complexity - 
+// Time Complexity - O(N^2)
+// Space Complexity - O(1)
 
 function asteroidCollision(asteroids) {
     let i = 0;
 
     while (i < asteroids.length - 1) {
-        
+
         // Check for a collision between adjacent asteroids
         if (asteroids[i] > 0 && asteroids[i + 1] < 0) {
-           
+
             // Both asteroids collide
             if (Math.abs(asteroids[i]) > Math.abs(asteroids[i + 1])) {
-                
+
                 // Right-moving asteroid survives
                 asteroids.splice(i + 1, 1); // Remove the left-moving asteroid
             } else if (Math.abs(asteroids[i]) < Math.abs(asteroids[i + 1])) {
-                
+
                 // Left-moving asteroid survives
                 asteroids.splice(i, 1); // Remove the right-moving asteroid
                 i = Math.max(0, i - 1); // Step back to check previous collisions
             } else {
-                
+
                 // Both asteroids are destroyed
                 asteroids.splice(i, 2); // Remove both
                 i = Math.max(0, i - 1); // Step back to check previous collisions
@@ -43,21 +43,25 @@ function asteroidCollision(asteroids) {
         }
     }
 
-    return asteroids;    
+    return asteroids;
 }
 
-function asteroidCollision2(asteroids){
+// - Optimal Approach
+// Time Complexity - O(N)
+// Space Complexity - O(N)
+
+function asteroidCollision2(asteroids) {
     const stack = [];
-    
+
     for (let i = 0; i < asteroids.length; i++) {
         let current = asteroids[i];
         let collisionOccurred = false;
-        
+
         // Process collisions only if current asteroid is moving left
         // and there's a right-moving asteroid on the stack
         while (stack.length > 0 && current < 0 && stack[stack.length - 1] > 0) {
             let last = stack[stack.length - 1];
-            
+
             if (Math.abs(current) > last) {
                 // Current asteroid destroys the last asteroid on the stack
                 stack.pop();
@@ -73,14 +77,14 @@ function asteroidCollision2(asteroids){
                 break;
             }
         }
-        
+
         if (!collisionOccurred) {
             // If no collision occurred, push the current asteroid onto the stack
             stack.push(current);
         }
         // If collision occurred and current asteroid is destroyed, do nothing
     }
-    
+
     return stack;
 }
 
