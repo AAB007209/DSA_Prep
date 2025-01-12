@@ -118,14 +118,14 @@ function asteroidCollision3(asteroids) {
 // - Driver code
 
 // Bruteforce
-condCollision([5, 10, -5])); // Output: [ 5 , 10 ]
+console.log(asteroidCollision([5, 10, -5])); // Output: [ 5 , 10 ]
 console.log(asteroidCollision([8, -8])); // Output: [ ]
 console.log(asteroidCollision([10, 2, -5])); // Output: [ 10 ]
 
 // Optimal 
 console.log(asteroidCollision2([5, 10, -5])); // Output: [ 5 , 10 ]
 console.log(asteroidCollision2([8, -8])); // Output: [ ]
-console.log(asteroidCollision2([10, 2, -5])); // Output: [ 10 ]sole.log(asteroi
+console.log(asteroidCollision2([10, 2, -5])); // Output: [ 10 ]
 
 // Optimal 2
 console.log(asteroidCollision3([5, 10, -5])); // Output: [ 5 , 10 ]
