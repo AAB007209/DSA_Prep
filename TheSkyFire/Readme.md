@@ -150,6 +150,7 @@ Currently Solving - Stacks and Queues [5 days]
 | Nearest Smallest Integer | Stacks | 08-01-2025 | Medium |
 | Number of Greater Elements to the Right | Stacks | 08-01-2025 | Easy |
 | Sum of Subarray Minimums | Stacks | 09-01-2025 | Medium |
+| Asteroid Collision | Stacks | 10-01-2025 | Medium |
 
 ## Basic Maths
 
