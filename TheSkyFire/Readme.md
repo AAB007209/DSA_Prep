@@ -151,6 +151,8 @@ Currently Solving - Stacks and Queues [5 days]
 | Number of Greater Elements to the Right | Stacks | 08-01-2025 | Easy |
 | Sum of Subarray Minimums | Stacks | 09-01-2025 | Medium |
 | Asteroid Collision | Stacks | 10-01-2025 | Medium |
+| Sum of Subarray Ranges | Stacks | 12-01-2025 | Medium |
+| Remove K Digits | Stacks | 13-01-2025 | Medium |
 
 ## Basic Maths
 
