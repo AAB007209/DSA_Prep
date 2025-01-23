@@ -9,7 +9,7 @@ Alphanumeric characters include letters and numbers.
 Given a string s, return true if it is a palindrome, or false otherwise.
 */
 
-// - Bruteforce Approach
+// - Recursive Approach
 // Time Complexity - O(N)
 // Space Complexity - O(N)
 
