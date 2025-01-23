@@ -168,3 +168,8 @@ Currently Solving - Stacks and Queues [5 days]
 | Print 1 to N Numbers | Basic Recursion | 23-01-2025 | Easy |
 | Print String N Times | Basic Recursion | 23-01-2025 | Easy |
 | Print N to 1 Numbers | Basic Recursion | 23-01-2025 | Easy |
+| Factorial of a Number | Basic Recursion | 23-01-2025 | Easy |
+| Sum of first N numbers (cubes) | Basic Recursion | 23-01-2025 | Easy |
+| Reverse an Array | Basic Recursion | 23-01-2025 | Easy |
+| Valid Palindrome (Using Recursion) | Basic Recursion | 23-01-2025 | Easy |
+| Fibonacci Number | Basic Recursion | 23-01-2025 | Easy |
