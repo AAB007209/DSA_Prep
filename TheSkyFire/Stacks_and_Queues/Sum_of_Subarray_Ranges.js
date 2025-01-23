@@ -61,11 +61,41 @@ function subArrayRanges2(nums) {
 }
 
 // - Optimal Approach
-// Time Complexity - O(N)
-// Space Complexity - O(N)
+// Time Complexity ~ O(N)
+// Space Complexity ~ O(N)
 
 function subArrayRanges3(nums) {
+    let mins = 0
+    let maxes = 0
+    let minStack = [];
+    let maxStack = [];
 
+    for (let i = 0; i < nums.length; i++) {
+        while (minStack.length && nums[minStack[minStack.length - 1]] > nums[i]) {
+            const min = minStack.pop()
+            mins += ((min - (minStack.length ? minStack[minStack.length - 1] : -1)) * (i - min)) * nums[min]
+        }
+        minStack.push(i)
+
+        while (maxStack.length && nums[maxStack[maxStack.length - 1]] < nums[i]) {
+            const max = maxStack.pop()
+            maxes += ((max - (maxStack.length ? maxStack[maxStack.length - 1] : -1)) * (i - max)) * nums[max]
+        }
+        maxStack.push(i)
+    }
+
+    while (minStack.length) {
+        const min = minStack.pop()
+        mins += ((min - (minStack.length ? minStack[minStack.length - 1] : -1)) * (nums.length - min)) * nums[min]
+    }
+
+
+    while (maxStack.length) {
+        const max = maxStack.pop()
+        maxes += ((max - (maxStack.length ? maxStack[maxStack.length - 1] : -1)) * (nums.length - max)) * nums[max]
+    }
+
+    return maxes - mins;
 }
 
 // - Driver code
