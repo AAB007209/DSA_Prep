@@ -6,7 +6,7 @@
 Print given String n times without the loop.
 */
 
-// - Bruteforce Approach
+// - Recursion Approach
 // Time Complexity - O(N)
 // Space Complexity - O(N)
 
