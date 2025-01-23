@@ -167,3 +167,4 @@ Currently Solving - Stacks and Queues [5 days]
 |--------------|-----------|------|------------|
 | Print 1 to N Numbers | Basic Recursion | 23-01-2025 | Easy |
 | Print String N Times | Basic Recursion | 23-01-2025 | Easy |
+| Print N to 1 Numbers | Basic Recursion | 23-01-2025 | Easy |
