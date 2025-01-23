@@ -2,20 +2,20 @@
 
 This repository will contain all the DSA problems Solved by me.
 
-Currently Solving - Stacks and Queues [5 days]
+Currently Solving - Recursion [7 days]
 
 1. Bit Manipulation [4 days]
 2. Basic Maths [2 days]
 3. Greedy Problems [5 days]
-4. Recursion [7 days]
-5. Dynamic Programming (Basic) [10 days]
-6. Graphs [10 days]
-7. Trees [10 days]
-8. Arrays (Revision)
-9. Sliding Window Problems (Revision)
-10. Binary Search Problems (Revision)
-11. Strings (Revision)
-12. Linked List (Revision)
+4. Dynamic Programming (Basic) [10 days]
+5. Graphs [10 days]
+6. Trees [10 days]
+7. Arrays (Revision)
+8. Sliding Window Problems (Revision)
+9. Binary Search Problems (Revision)
+10. Strings (Revision)
+11. Linked List (Revision)
+12. Stacks and Queues (Revision)
 
 ## Strings
 
