@@ -160,3 +160,10 @@ Currently Solving - Stacks and Queues [5 days]
 |--------------|-----------|------|------------|
 | Count Digits | Basic Maths | 27-10-2024 | Easy |
 | Palindrome | Basic Maths | 28-10-2024 | Easy |
+
+## Recursion
+
+| Problem      | Topic     | Date | Difficulty |
+|--------------|-----------|------|------------|
+| Print 1 to N Numbers | Basic Recursion | 23-01-2025 | Easy |
+| Print String N Times | Basic Recursion | 23-01-2025 | Easy |
