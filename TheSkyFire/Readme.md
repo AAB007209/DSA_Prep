@@ -173,4 +173,4 @@ Currently Solving - Recursion [7 days]
 | Reverse an Array | Basic Recursion | 23-01-2025 | Easy |
 | Valid Palindrome (Using Recursion) | Basic Recursion | 23-01-2025 | Easy |
 | Fibonacci Number | Basic Recursion | 23-01-2025 | Easy |
-| Pow(x,n) | Recursion (Math) | 24-01-2025 | Medium |
+| Pow(x,n) | Recursion (Math) | 25-01-2025 | Medium |
