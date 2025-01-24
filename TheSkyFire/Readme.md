@@ -173,3 +173,4 @@ Currently Solving - Stacks and Queues [5 days]
 | Reverse an Array | Basic Recursion | 23-01-2025 | Easy |
 | Valid Palindrome (Using Recursion) | Basic Recursion | 23-01-2025 | Easy |
 | Fibonacci Number | Basic Recursion | 23-01-2025 | Easy |
+| Pow(x,n) | Recursion (Math) | 24-01-2025 | Medium |
