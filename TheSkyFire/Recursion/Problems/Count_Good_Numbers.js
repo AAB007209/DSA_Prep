@@ -73,3 +73,8 @@ var countGoodNumbers = function (n) {
 console.log(countGoodNumbers(4)); // Output: 400
 console.log(countGoodNumbers(50)); // Output: 564908303
 console.log(countGoodNumbers(1)); // Output: 5
+
+
+/*
+- Problem Intuition link - https://leetcode.com/problems/count-good-numbers/solutions/5450709/optimal-solution-in-javascript-fully-explained/
+*/
