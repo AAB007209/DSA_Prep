@@ -175,3 +175,4 @@ Currently Solving - Recursion [7 days]
 | Fibonacci Number | Basic Recursion | 23-01-2025 | Easy |
 | Pow(x,n) | Recursion (Math) | 25-01-2025 | Medium |
 | Count Good Digits | Recursion (Math) | 26-01-2025 | Medium |
+| Sort Array | Recursion | 26-01-2025 | Easy |
