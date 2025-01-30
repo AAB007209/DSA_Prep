@@ -179,3 +179,4 @@ Currently Solving - Recursion [7 days]
 | Sort a Stack | Recursion | 27-01-2025 | Medium |
 | Reverse a Stack | Basic Recursion | 28-01-2025 | Easy |
 | Generate All Binary Substrings without Consecutive 1's | Recursion | 28-01-2025 | Medium |
+| Generate Parenthesis | Recursion | 30-01-2025 | Medium |
