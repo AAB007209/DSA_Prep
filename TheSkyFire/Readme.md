@@ -178,3 +178,4 @@ Currently Solving - Recursion [7 days]
 | Sort an Array | Recursion | 26-01-2025 | Medium |
 | Sort a Stack | Recursion | 27-01-2025 | Medium |
 | Reverse a Stack | Basic Recursion | 28-01-2025 | Easy |
+| Generate All Binary Substrings without Consecutive 1's | Recursion | 28-01-2025 | Medium |
