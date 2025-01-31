@@ -180,3 +180,5 @@ Currently Solving - Recursion [7 days]
 | Reverse a Stack | Basic Recursion | 28-01-2025 | Easy |
 | Generate All Binary Substrings without Consecutive 1's | Recursion | 28-01-2025 | Medium |
 | Generate Parenthesis | Recursion | 30-01-2025 | Medium |
+| Subsets | Recursion | 31-01-2025 | Medium |
+
