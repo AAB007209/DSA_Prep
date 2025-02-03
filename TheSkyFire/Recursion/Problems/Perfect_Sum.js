@@ -42,3 +42,12 @@ function findSubsets(arr, targetSum) {
 console.log(findSubsets([2, 3, 5, 7], 7));
 console.log(findSubsets([5, 2, 3, 10, 6, 8], 10));
 
+
+/*
+
+- Points to remember
+
+1. Auxiliary Space - Only considers the extra space used by the algorithm.
+2. Space Complexity - Includes both Auxiliary space and input storage.
+
+*/
