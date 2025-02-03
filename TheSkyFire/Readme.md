@@ -182,4 +182,5 @@ Currently Solving - Recursion [7 days]
 | Generate Parenthesis | Recursion | 30-01-2025 | Medium |
 | Subsets | Recursion | 31-01-2025 | Medium |
 | Generate Distinct Subsequences | Recursion [DP Required] | 01-02-2025 | Medium |
+| Perfect Sum | Recursion [DP Required] | 03-02-2025 | Medium |
 
