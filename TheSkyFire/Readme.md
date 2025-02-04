@@ -185,3 +185,4 @@ Currently Solving - Recursion [7 days]
 | Perfect Sum | Recursion [DP Required] | 03-02-2025 | Medium |
 | Combination Sum I | Recursion | 03-02-2025 | Medium |
 | Combination Sum II | Recursion | 04-02-2025 | Medium |
+| Subset Sums | Recursion | 04-02-2025 | Medium |
