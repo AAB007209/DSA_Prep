@@ -9,8 +9,8 @@ A mapping of digits to letters (just like on the telephone buttons) is given bel
 */
 
 // - Recursive Approach
-// Time Complexity - 
-// Space Complexity - 
+// Time Complexity - O(4^N)
+// Space Complexity - O(4^N)
 
 var letterCombinations = function(digits) {
     if (digits.length === 0) return []; // Edge case
