@@ -41,9 +41,30 @@ function binarySearch(nums, target) {
     return -1;
 }
 
+// - Recursive
+// TC - O(log N)
+// SC - O(log N)
+
+function binarySearchRecursive(arr, low, high, x) {
+    if (low > high) return -1;
+
+    let mid = Math.floor((low + high) / 2);
+
+    if (arr[mid] === x) return mid;
+
+    if (arr[mid] > x) {
+        return binarySearch(arr, low, mid - 1, x); // Search in left half
+    } else {
+        return binarySearch(arr, mid + 1, high, x); // Search in right half
+    }
+}
+
 // - Driver Code
 console.log(linearSearch([-1, 0, 3, 5, 9, 12], 9)); // 4
 console.log(linearSearch([-1, 0, 3, 5, 9, 12], 2)); // 0
 
 console.log(binarySearch([-1, 0, 3, 5, 9, 12], 5)); // 3
 console.log(binarySearch([-1, 0, 3, 5, 9, 12], 12)); // 5
+
+let arr = [1, 3, 5, 7, 9, 11, 15];
+console.log(binarySearch(arr, 0, arr.length - 1, 7));

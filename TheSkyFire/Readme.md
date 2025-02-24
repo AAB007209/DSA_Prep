@@ -182,4 +182,10 @@ Currently Solving - Recursion [7 days]
 | Generate Parenthesis | Recursion | 30-01-2025 | Medium |
 | Subsets | Recursion | 31-01-2025 | Medium |
 | Generate Distinct Subsequences | Recursion [DP Required] | 01-02-2025 | Medium |
-
+| Perfect Sum | Recursion [DP Required] | 03-02-2025 | Medium |
+| Combination Sum I | Recursion | 03-02-2025 | Medium |
+| Combination Sum II | Recursion | 04-02-2025 | Medium |
+| Subset Sums | Recursion | 04-02-2025 | Medium |
+| Subset Sums II | Recursion | 05-02-2025 | Medium |
+| Combination Sum III | Recursion | 05-02-2025 | Medium |
+| Letter Combination of a Phone Number | Recursion | 06-02-2025 | Hard |
