@@ -189,3 +189,11 @@ Currently Solving - Recursion [7 days]
 | Subset Sums II | Recursion | 05-02-2025 | Medium |
 | Combination Sum III | Recursion | 05-02-2025 | Medium |
 | Letter Combination of a Phone Number | Recursion | 06-02-2025 | Hard |
+
+
+## Greedy Problems
+
+| Problem      | Topic     | Date | Difficulty |
+|--------------|-----------|------|------------|
+| Jump Game | Greedy | 24-02-2025 | Easy |
+| Jump Game II | Greedy | 24-02-2025 | Medium |
