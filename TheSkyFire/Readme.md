@@ -53,6 +53,8 @@ Currently Solving - Recursion [7 days]
 | Longest word in the String | Strings | 21-10-2024 | Easy |
 | Find the word that repeats maximum number of times | Strings | 21-10-2024 | Easy |
 | Print all the duplicate characters in the string | Strings | 24-10-2024 | Medium |
+| Capitalize | Strings | 28-02-2025 | Easy |
+
 
 ## Arrays
 
