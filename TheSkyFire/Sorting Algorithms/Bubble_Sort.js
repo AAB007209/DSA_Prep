@@ -22,5 +22,8 @@ function bubbleSort(arr) {
 }
 
 // - Driver code
-console.log(bubbleSort([4, 1, 5, 2, 3]));
-console.log(bubbleSort([1, 2, 3, 4, 5]));
+console.time("Bubble Sort Time");
+console.log(bubbleSort([4, 1, 3, 5, 2]));
+console.timeEnd("Bubble Sort Time");
+
+// console.log(bubbleSort([1, 2, 3, 4, 5]));

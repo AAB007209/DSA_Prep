@@ -20,5 +20,7 @@ function selectionSort(arr) {
 }
 
 // - Driver Code
+console.time("Selection Sort Time");
 console.log(selectionSort([4, 1, 2, 5, 3, 8, 6, 7]));
-console.log(selectionSort([100, 30, 50, 10, 20, 40, 90, 80, 70, 60]));
+console.timeEnd("Selection Sort Time");
+// console.log(selectionSort([100, 30, 50, 10, 20, 40, 90, 80, 70, 60]));
