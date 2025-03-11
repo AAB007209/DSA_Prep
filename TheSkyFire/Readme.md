@@ -81,6 +81,8 @@ Currently Solving - Recursion [7 days]
 | Maximum Product Subarray | Arrays (Prefix Sum) | 23-11-2024 | Medium |
 | Inversion Count | Arrays (Modified Merge Sort) | 27-11-2024 | Hard |
 | Reverse Pairs | Arrays (Modified Merge Sort) | 29-11-2024 | Hard |
+| Largest Element in an Array | Arrays  | 11-03-2025 | Easy |
+
 
 ## Binary Search
 | Problem      | Topic     | Date | Difficulty |
