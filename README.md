@@ -1,7 +1,7 @@
 # DSA_Prep
 This is the Repo which contains all the DSA related stuff for easy look-up and revision.
 
-Currently Solving - Recursion [7 days]
+Currently Solving - Revising few topics
 
 1. Bit Manipulation [4 days]
 2. Basic Maths [2 days]
