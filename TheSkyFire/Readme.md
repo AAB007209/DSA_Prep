@@ -83,7 +83,7 @@ Currently Solving - Recursion [7 days]
 | Reverse Pairs | Arrays (Modified Merge Sort) | 29-11-2024 | Hard |
 | Largest Element in an Array | Arrays  | 11-03-2025 | Easy |
 | Second Largest Element in an Array | Arrays  | 11-03-2025 | Easy |
-
+| Check if Array is Sorted and Rotated | Arrays | 12-03-2025 | Easy |
 
 ## Binary Search
 | Problem      | Topic     | Date | Difficulty |
