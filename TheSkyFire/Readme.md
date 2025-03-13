@@ -115,6 +115,7 @@ Currently Solving - Recursion [7 days]
 | Book Allocation | BS (min of max) | 17-12-2024 | Hard |
 | Split Array Largest Sum | BS (min of max) | 19-12-2024 | Hard |
 | Painter's Partition | BS (min of max) | 19-12-2024 | Hard |
+| Maximum Count of Positive and Negative Integers | BS (lower and upper bound) | 13-03-2025 | Medium |
 
 ## Matrix Problems
 | Problem      | Topic     | Date | Difficulty |
