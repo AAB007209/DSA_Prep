@@ -86,7 +86,8 @@ Currently Solving - Recursion [7 days]
 | Check if Array is Sorted and Rotated | Arrays | 12-03-2025 | Easy |
 | Move Zeroes | Arrays (Two Pointers) | 12-03-2025 | Easy |
 | Apply Operations to an Array | Arrays (Two Pointers) | 12-03-2025 | Easy |
-| Remove Duplicates from the Array | Arrays (Two Pointers) | 13-03-2025 | Easy |
+| Remove Duplicates from the Array | Arrays (Two Pointers) | 14-03-2025 | Easy |
+| Rotate Array | Arrays | 15-3-2025 | Easy |
 
 ## Binary Search
 | Problem      | Topic     | Date | Difficulty |
