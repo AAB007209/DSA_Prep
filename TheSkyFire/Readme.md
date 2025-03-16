@@ -87,7 +87,8 @@ Currently Solving - Recursion [7 days]
 | Move Zeroes | Arrays (Two Pointers) | 12-03-2025 | Easy |
 | Apply Operations to an Array | Arrays (Two Pointers) | 12-03-2025 | Easy |
 | Remove Duplicates from the Array | Arrays (Two Pointers) | 14-03-2025 | Easy |
-| Rotate Array | Arrays | 15-3-2025 | Easy |
+| Rotate Array | Arrays | 15-03-2025 | Medium |
+| Find the Union | Arrays | 16-03-2025 | Easy |
 
 ## Binary Search
 | Problem      | Topic     | Date | Difficulty |
