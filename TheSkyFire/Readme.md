@@ -91,6 +91,7 @@ Currently Solving - Recursion [7 days]
 | Find the Union | Arrays | 16-03-2025 | Easy |
 | Missing Number | Arrays | 16-03-2025 | Easy |
 | Max Consecutive Ones | Arrays | 16-03-2025 | Easy |
+| Single Number | Arrays | 16-03-2025 | Easy |
 
 ## Binary Search
 | Problem      | Topic     | Date | Difficulty |
