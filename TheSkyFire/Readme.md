@@ -92,6 +92,7 @@ Currently Solving - Recursion [7 days]
 | Missing Number | Arrays | 16-03-2025 | Easy |
 | Max Consecutive Ones | Arrays | 16-03-2025 | Easy |
 | Single Number | Arrays | 16-03-2025 | Easy |
+| Longest Subarray Sum with Sum K | Arrays | 17-03-2025 | Easy |
 
 ## Binary Search
 | Problem      | Topic     | Date | Difficulty |
