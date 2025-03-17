@@ -28,7 +28,7 @@ function longestSubarray1(arr, K) {
     return maxLength;
 }
 
-// - Optimal Approach
+// - Better Approach [Hash Map] [This is optimal for +ve & -ve Integers]
 // Time Complexity - O(N)
 // Space Complexity - O(N)
 function longestSubarray2(arr, K) {
@@ -59,7 +59,44 @@ function longestSubarray2(arr, K) {
     return maxLength;
 }
 
+// - Optimal Approach [Two Pointers] (Only +ve Integers)
+// Time Complexity - O(N)
+// Space Complexity - O(1)
+
+function longestSubarray3(arr, k){
+    let n = arr.length; // size of the array
+
+    let left = 0, right = 0; // 2 pointers
+    let sum = arr[0];
+    let maxLen = 0;
+    while (right < n) {
+        // if sum > k, reduce the subarray from left
+        // until sum becomes less or equal to k
+        while (left <= right && sum > k) {
+            sum -= arr[left];
+            left++;
+        }
+
+        // if sum = k, update the maxLen i.e. answer
+        if (sum === k) {
+            maxLen = Math.max(maxLen, right - left + 1);
+        }
+
+        // Move forward the right pointer
+        right++;
+        if (right < n) sum += arr[right];
+    }
+
+    return maxLen;
+}
+
 // - Driver code
-console.log(longestSubarray2([10, 5, 2, 7, 1, -10], 15)); // Output: 6
-console.log(longestSubarray2([-5, 8, -14, 2, 4, 12], -5)); // Output: 5
-console.log(longestSubarray2([10, -10, 20, 30], 5)); // Output: 0
+// +ve + -ve Integers
+console.log(longestSubarray2([2, 3, -2, 4, -1, 5], 5));  // Output: 3
+console.log(longestSubarray2([1, 2, 3, -1, 4], 6));      // Output: 3
+console.log(longestSubarray2([-2, -3, 4, -1, -2, 1, 5], 3)); // Output: 4
+
+// Only +ve Integers 
+console.log(longestSubarray3([10, 5, 2, 7, 1], 15)); // Output: 4 
+console.log(longestSubarray3([8, 2, 4, 12], 10)); // Output: 2
+console.log(longestSubarray3([10, 10, 20, 30], 40)); // Output: 3 
