@@ -94,6 +94,8 @@ Currently Solving - Recursion [7 days]
 | Single Number | Arrays | 16-03-2025 | Easy |
 | Longest Subarray Sum with Sum K | Arrays | 17-03-2025 | Easy |
 | Sort 0 1 2 | Arrays [Dutch National Flag] | 17-03-2025 | Easy |
+| Maximum Subarray | Arrays [Kadane Algo] | 18-03-2025 | Easy |
+
 
 ## Binary Search
 | Problem      | Topic     | Date | Difficulty |
