@@ -98,6 +98,7 @@ Currently Solving - Recursion [7 days]
 | Maximum Score from Subarray Minimums | Arrays | 18-03-2025 | Easy |
 | Print Max Score from Subarray Mins | Arrays | 18-03-2025 | Medium |
 | Best time to Buy and Sell stock | Arrays | 19-03-2025 | Easy |
+| Rearrange Array Elements by Sign | Arrays [Two-pointer] | 20-03-2025 | Easy |
 
 ## Binary Search
 | Problem      | Topic     | Date | Difficulty |
