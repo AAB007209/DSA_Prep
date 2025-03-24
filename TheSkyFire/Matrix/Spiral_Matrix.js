@@ -6,8 +6,8 @@ Given an m x n matrix, return all elements of the matrix in spiral order.
 */
 
 // - Normal Approach
-// Time Complexity - O(N^2)
-// Space Complexity - O(1)
+// Time Complexity - O(M * N)
+// Space Complexity - O(M * N)
 
 function spiralMatrix(matrix) {
     let arr = []; // This is for Returing answer so not included in TC
