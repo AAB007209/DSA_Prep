@@ -41,7 +41,7 @@ function fourSum1(nums, target) {
 
 // - Better Approach
 // Time Complexity - O(N^3)
-// Space Complexity - O(N^4)
+// Space Complexity - O(N + M)
 
 function fourSum2(nums, target) {
     let n = nums.length;
@@ -70,7 +70,7 @@ function fourSum2(nums, target) {
 
 // - Optimal Approach
 // Time Complexity - O(N^3)
-// Space Complexity - O(1)
+// Space Complexity - O(M) - M = No.of Quadrapulets stored. At max all quadrapulets are unique.
 
 function fourSum3(nums, target) {
     let n = nums.length;
