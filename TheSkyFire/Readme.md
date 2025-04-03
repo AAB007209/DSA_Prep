@@ -221,3 +221,10 @@ Currently Solving - Recursion [7 days]
 |--------------|-----------|------|------------|
 | Jump Game | Greedy | 24-02-2025 | Easy |
 | Jump Game II | Greedy | 24-02-2025 | Medium |
+
+
+## Random Problems
+
+| Problem      | Topic     | Date | Difficulty |
+|--------------|-----------|------|------------|
+| Max Value of an Ordered Triplet I | Array | 03-04-2025 | Medium |
