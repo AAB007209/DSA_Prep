@@ -68,7 +68,7 @@ Breakdown :
 -> Array.from("1234");    // ["1", "2", "3", "4"]
 -> Array.from("1234", Number); // [1, 2, 3, 4]
 
-Array.from(String(N), Number) – Creates an array from the string representation of N:
+Array.from(String(N), Number) – Creates an array of Numbers from the string representation of N:
 
 Array.from() takes two arguments: the first is an iterable (like a string), and the second is a mapping function that operates on each element of the iterable.
 Here, Number is used as the mapping function, which converts each character (digit) back to a number.
