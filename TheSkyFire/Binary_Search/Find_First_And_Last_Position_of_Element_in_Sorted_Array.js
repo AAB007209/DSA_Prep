@@ -70,6 +70,37 @@ function findFirstAndLast2(nums, target) {
     return [startIndex, endIndex];
 }
 
+// - Optimal Approach (More Optimized Binary Search)
+// Time Complexity - O(Log N)
+// Space Complexity - O(1)
+
+var findFirstAndLast3 = function (nums, target) {
+    function binarySearch(findFirst) {
+        let result = -1;
+        let left = 0, right = nums.length - 1;
+
+        while (left <= right) {
+            let mid = (left + right) >> 1;
+
+            if (nums[mid] === target) {
+                result = mid;
+                if (findFirst) {
+                    right = mid - 1;
+                } else {
+                    left = mid + 1;
+                }
+            } else if (nums[mid] < target) {
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
+        }
+        return result;
+    }
+
+    return [binarySearch(true), binarySearch(false)];
+}
+
 // - Driver code
 // Bruteforce
 console.log(findFirstAndLast1([5, 7, 7, 8, 8, 10], 8));
@@ -77,6 +108,11 @@ console.log(findFirstAndLast1([5, 7, 7, 8, 8, 10], 6));
 console.log(findFirstAndLast1([], 0));
 
 // Optimal (Binary Search)
-console.log(findFirstAndLast1([5, 7, 7, 8, 8, 10], 8));
-console.log(findFirstAndLast1([5, 7, 7, 8, 8, 10], 6));
-console.log(findFirstAndLast1([], 0));
+console.log(findFirstAndLast2([5, 7, 7, 8, 8, 10], 8));
+console.log(findFirstAndLast2([5, 7, 7, 8, 8, 10], 6));
+console.log(findFirstAndLast2([], 0));
+
+// More Optimized Binary Search
+console.log(findFirstAndLast3([5, 7, 7, 8, 8, 10], 8));
+console.log(findFirstAndLast3([5, 7, 7, 8, 8, 10], 6));
+console.log(findFirstAndLast3([], 0));
