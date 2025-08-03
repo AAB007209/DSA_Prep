@@ -55,6 +55,7 @@ Currently Solving - Recursion [7 days]
 | Print all the duplicate characters in the string | Strings | 24-10-2024 | Medium |
 | Capitalize | Strings | 28-02-2025 | Easy |
 | Unique Characters | Strings | 28-02-2025 | Easy |
+| Merge Strings Alternately | Strings | 03-08-2025 | Easy |
 
 
 ## Arrays
