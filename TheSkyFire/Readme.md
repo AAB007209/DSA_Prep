@@ -56,6 +56,7 @@ Currently Solving - Recursion [7 days]
 | Capitalize | Strings | 28-02-2025 | Easy |
 | Unique Characters | Strings | 28-02-2025 | Easy |
 | Merge Strings Alternately | Strings | 03-08-2025 | Easy |
+| Greatest Common Divisor of Strings | Strings (Euclid's Algo) | 16-08-2025 | Easy |
 
 
 ## Arrays
@@ -102,6 +103,7 @@ Currently Solving - Recursion [7 days]
 | Rearrange Array Elements by Sign | Arrays [Two-pointer] | 20-03-2025 | Easy |
 | Next Permutation | Arrays | 24-03-2025 | Medium |
 | Array Leaders | Arrays | 24-03-2025 | Easy |
+| Kids with the Greatest Number of Candies | Arrays | 16-08-2025 | Easy |
 
 ## Binary Search
 | Problem      | Topic     | Date | Difficulty |
