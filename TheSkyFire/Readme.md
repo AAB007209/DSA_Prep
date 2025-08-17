@@ -224,6 +224,7 @@ Currently Solving - Recursion [7 days]
 |--------------|-----------|------|------------|
 | Jump Game | Greedy | 24-02-2025 | Easy |
 | Jump Game II | Greedy | 24-02-2025 | Medium |
+| Can Place Flowers | Greedy | 17-08-2025 | Medium |
 
 
 ## Random Problems
