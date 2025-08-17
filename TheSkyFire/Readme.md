@@ -57,7 +57,7 @@ Currently Solving - Recursion [7 days]
 | Unique Characters | Strings | 28-02-2025 | Easy |
 | Merge Strings Alternately | Strings | 03-08-2025 | Easy |
 | Greatest Common Divisor of Strings | Strings (Euclid's Algo) | 16-08-2025 | Easy |
-
+| Reverse Vowels of a String | Strings (Two Pointers) | 17-08-2025 | Medium |
 
 ## Arrays
 
