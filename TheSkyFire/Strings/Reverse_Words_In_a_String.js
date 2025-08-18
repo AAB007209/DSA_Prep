@@ -35,7 +35,7 @@ function reverseWords3(str) {
     while (i <= j && str[i] === " ") i++;
     while (j >= i && str[j] === " ") j--;
 
-    // Extract this substring now without leading dnd trailing spaces in the string.
+    // Extract this substring now without leading and trailing spaces in the string.
     str = str.substring(i, j + 1);
 
     // Split the trimmed string into words based on spaces
