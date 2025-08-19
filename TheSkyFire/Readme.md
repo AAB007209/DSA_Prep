@@ -104,6 +104,7 @@ Currently Solving - Recursion [7 days]
 | Next Permutation | Arrays | 24-03-2025 | Medium |
 | Array Leaders | Arrays | 24-03-2025 | Easy |
 | Kids with the Greatest Number of Candies | Arrays | 16-08-2025 | Easy |
+| Product of Array Except itself | Arrays (Pref * Suff) | 20-08-2025 | Medium |
 
 ## Binary Search
 | Problem      | Topic     | Date | Difficulty |
