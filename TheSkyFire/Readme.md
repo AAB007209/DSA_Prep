@@ -233,3 +233,11 @@ Currently Solving - Recursion [7 days]
 | Problem      | Topic     | Date | Difficulty |
 |--------------|-----------|------|------------|
 | Max Value of an Ordered Triplet I | Array | 03-04-2025 | Medium |
+
+## Patterns
+
+| Problem      | Pattern     | Date | Difficulty |
+|--------------|-----------|------|------------|
+| 26. Remove Duplicates from Sorted Array | Two Pointers | 03-10-2025 | Easy |
+| 283. Move Zeroes | Two Pointers | 03-10-2025 | Easy |
+| 392. Is Subsequence | Two Pointers | 04-10-2025 | Easy |
